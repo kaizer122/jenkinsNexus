@@ -81,8 +81,9 @@ pipeline {
     always {  
              
             emailext attachLog: true,
-            body: 'This is a mail from Jenkins',to: "nadeje.tabib@esprit.tn", subject:'jenkinslog'
+            body: 'This is a mail from Jenkins',to: "kais.ladjemi@esprit.tn", subject:'jenkinslog'
             
         }
+
     }
 }
